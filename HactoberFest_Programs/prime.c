@@ -21,7 +21,7 @@ int main(){
 			count++;
 		}
 		else{
-			flag=0;
+			flag=1;
 		}
 		
 	}
