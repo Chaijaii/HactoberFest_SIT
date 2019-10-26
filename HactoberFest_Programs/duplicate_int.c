@@ -4,8 +4,8 @@ int main(){
 	printf("Enter the number of elements: \n");
 	scanf("%d",&size);
 	int arr[size];
+	printf("\nEnter number: ");
 	for(i=0;i<size;i++){
-		printf("\nEnter number: ");
 		scanf("%d",&arr[i]);
 	}
 	for(i=0;i<size;i++){
@@ -17,7 +17,7 @@ int main(){
 		}
 	}
 	if(flag==0){
-		printf("No uplicates found\n");
+		printf("No duplicates found\n");
 	}
 	
 	
